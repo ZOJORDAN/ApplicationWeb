@@ -1,0 +1,12 @@
+MÉTHODE D'AJOUT D'UNE APPLICATION SUR LE SERVEUR
+
+
+cree un ficher  ".conf" de l'application qu'on veux
+
+ajouter dans "reverseproxy/links" le nom de apllication et une database associé 
+
+recuper une image de l'application et remplir comme ci dessous:
+image: "image de l'appli"
+container_name: "choisir un nom"
+volumes: "chemin d'acces au fichier"
+links: "data base associé"
